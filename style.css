@@ -1,0 +1,74 @@
+nav {
+  background-color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+    
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  margin-top: 10px;
+  border: 10px;
+}
+button, input {
+  margin-top: 10px;
+  border: 10px;
+}
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(47, 0, 255, 0.829);
+}
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 110, 255, 0.719);
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+html { 
+  box-sizing: border-box; 
+}
+body {
+  max-width: 42em;
+  padding: 2em;
+  margin: 0 auto;
+  color: #161616;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: currentColor;
+}
+h1 {
+  margin-bottom: 1.375em;
+  color:black;
+  font-weight: 100;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+p,a {
+  color: rgba(255,255,255,0.3);
+  font-size: small;
+}
+p { margin: 1.375rem 0; }
+@keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -180px 0px;}
+}
+@-webkit-keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -180px 0px;}
+}
+body  {
+  color:#fff;
+  text-align:center;
+  background-image: url('http://www.animatedimages.org/data/media/148/animated-weather-image-0048.gif');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 12px;
+  font-family: 'Dancing Script', cursive;
+  -webkit-animation: backgroundScroll 15s linear 1;
+  -webkit-animation-fill-mode: forwards;
+  animation: backgroundScroll 15s linear 1;
+  animation-fill-mode: forwards;
+}
